@@ -158,4 +158,4 @@ jobs:
       - name: Merge artifacts
         uses: actions/upload-artifact/merge@v4
         with:
-          name: pyre2/pyre2/dist
+          name: dist
