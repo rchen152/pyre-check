@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - .github/workflows/build_pyre2_binaries.yml
+      - pyre2/pyre2/pyproject.toml
   workflow_dispatch:
 
 env:
